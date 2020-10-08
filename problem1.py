@@ -15,8 +15,7 @@ def hypotenuse(x, y, z):
     if z == True:
         return math.hypot(x, y)
     elif z == False:
-        return math.sqrt(x**2 -
-     y**2)
+        return math.sqrt(x**2 - y**2)
 
 
 a = hypotenuse(3, 4, True)

@@ -9,5 +9,12 @@ Note that the coordinates should be signed (positive or negative) floats
 """
 import math
 
+
 def distance(x, y):
-    return math.sqrt()
+    return math.sqrt( (((x[0]-y[0])**2))+((x[1]-y[1])**2) ) 
+
+a=distance( (2, 4), (6, 3))
+print(a)
+
+b=distance((-3, 2.2), (1, 2))
+print(b)
