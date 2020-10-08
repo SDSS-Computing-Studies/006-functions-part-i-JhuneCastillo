@@ -18,6 +18,7 @@ def factors(x):
         if x % i == 0:
             factors.append(i)
     factors.sort()
+    print ( factors )
     return factors
 
 
