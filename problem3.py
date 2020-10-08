@@ -18,11 +18,11 @@ def factors(x):
         if x % i == 0:
             factors.append(i)
     factors.sort()
-    print(factors)
     return factors
 
 
 a = factors(12)
-
+print(a)
 b = factors(37)
+print(b)
 
