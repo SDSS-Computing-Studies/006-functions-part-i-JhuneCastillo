@@ -19,7 +19,7 @@ def factors(x):
             factors.append(i)
     factors.sort()
     print(factors)
-    return
+    return factors
 
 
 a = factors(12)
